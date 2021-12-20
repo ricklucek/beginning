@@ -22,7 +22,32 @@ button {
     background-color: #D90000;
     width: 55vw;
     height: 100vh;
+
+    position: absolute;
+    left: -100vw;
 }
 
+.menu-lateral--ativo {
+    left: 0;
+    background-color: #D90000;
+    width: 55vw;
+    height: 100vh;
+}
+
+.menu-lateral__link {
+    font-family: 'Roboto Slab', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    height: 64px;
+    color: #ffffff;
+    padding-left: 64px;
+    display: flex;
+    align-items: center;
+}
+
+.menu-lateral__link--ativo{
+    padding-left: 54px;
+    border-left: 8px solid #ffffff;
+}
 
 
