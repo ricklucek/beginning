@@ -52,12 +52,13 @@ button {
 }
 
 .cartao {
-    width: 100%;
+    margin: 3vw;
     border-radius: 20px;
     overflow: hidden;
     background-color: #c4c4c4;
     border: 1px solid #000000;
     box-shadow: 6px 6px 4px #474747;
+    padding-bottom: 23px;
     
 }
 
@@ -71,9 +72,23 @@ button {
 
 .cartao__conteudo {
     display: grid;
+    background-color: #ffffff;
+    margin: 16px;
     padding: 18px;
+    justify-content: center;
 }
 
 .cartao__conteudo--texto {
     margin-top: 25px;
+    font-family: 'Roboto mono',sans-serif;
+    color: #0500FF;
+    font-size: 21px;
+    font-weight: 700;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.cartao__seta {
+    width: 6%;
+    display: block;
 }
