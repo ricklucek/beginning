@@ -29,6 +29,7 @@ button {
 
 .menu-lateral--ativo {
     left: 0;
+    transition: .25s;
     background-color: #D90000;
     width: 55vw;
     height: 100vh;
@@ -50,4 +51,29 @@ button {
     border-left: 8px solid #ffffff;
 }
 
+.cartao {
+    width: 100%;
+    border-radius: 20px;
+    overflow: hidden;
+    background-color: #c4c4c4;
+    border: 1px solid #000000;
+    box-shadow: 6px 6px 4px #474747;
+    
+}
 
+.cartao__titulo {
+    display: flex;
+    font-family: 'Russo one', sans-serif;
+    font-size: 20px;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.cartao__conteudo {
+    display: grid;
+    padding: 18px;
+}
+
+.cartao__conteudo--texto {
+    margin-top: 25px;
+}
