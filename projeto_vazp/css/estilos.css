@@ -88,7 +88,70 @@ button {
     text-align: center;
 }
 
-.cartao__seta {
-    width: 6%;
-    display: block;
+.missao {
+    display: flex;
+    flex-direction: column;
+    color: #ffffff;
+}
+
+.missao--titulo {
+    font-family: 'Russo one', sans-serif;
+    font-size: 21px;
+    padding-left: 10px;
+
+}
+
+.missao--lista {
+    font-family: 'Roboto mono', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21.1px;
+    margin-left: 40px;
+    margin-bottom: 18px;
+    margin-top: 18px;
+    list-style-type: disc;
+}
+
+.comunidade {
+    background-color: #777777;
+    ;
+}
+
+.comunidade--texto {
+    text-align: center;
+    font-family: 'Russo one', sans-serif;
+    font-weight: 200;
+    font-size: 18px;
+    color: #ffffff;
+    padding: 25px;
+}
+
+.comunidade--imagem {
+    width: 100%;
+}
+
+.patrocinadores {
+    background: linear-gradient(180deg, #777777 0%, #000000 50.73%);
+}
+
+h5 {
+    text-align: center;
+    font-family: 'Russo one', sans-serif;
+    font-weight: 200;
+    font-size: 21px;
+    color: #ffffff;
+    padding: 50px;
+}
+
+.patrocinadores--logo {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 18px;
+    align-items: center;
+    column-gap: 20px;
+    padding-bottom: 8rem;
+}
+
+footer {
+    background-color: #ff0000;
 }
