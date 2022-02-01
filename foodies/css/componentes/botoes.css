@@ -1,0 +1,34 @@
+.botao {
+    background-color: var(--verde);
+    color: var(--branco);
+    font-family: var(--familia-texto);
+    font-weight: 400;
+    text-align: center;
+    width: 100%;
+    border: none;
+    padding: 1.4rem;
+}
+
+.botao__chamada--icone {
+    background-image: url(../../img/icones/seta.svg);
+    display: inline-block;
+    width: 1.4rem;
+    height: 0.6875rem;
+    background-size: contain;
+    margin-left: 1.84375rem;
+}
+
+.botao__promo--icone {
+    background-image: url(../../img/icones/seta-2.svg);
+    display: inline-block;
+    width: 1.4rem;
+    height: 0.6875rem;
+    background-size: contain;
+    margin-left: 1.84375rem;
+}
+
+.botao__promo {
+    background-color: var(--branco);
+    color: var(--verde);
+    border: 2px solid var(--verde);
+}

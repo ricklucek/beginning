@@ -1,0 +1,10 @@
+:root {
+    --verde-fundo: #F3FCF7;;
+    --verde: #06C167;
+    --branco: #FFFFFF;
+    --cinza: #F0F1EC;
+    
+    --familia-texto: 'Inter', sans-serif;
+
+    --tamanho-titulo: 2rem;
+}

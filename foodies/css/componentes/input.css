@@ -1,0 +1,11 @@
+.input {
+    color: inherit;
+    font-family: var(--familia-texto);
+    font-size: 1rem;
+    width: 100%;
+    padding: 1.75rem;
+    box-sizing: border-box;
+    margin-bottom: 1rem;
+    border: none;
+    background-color: var(--cinza);
+}

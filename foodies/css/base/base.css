@@ -1,0 +1,138 @@
+@import url(_reset.css);
+@import url(_variaveis.css);
+
+.container {
+    padding-left: 1.75rem;
+    padding-right: 1.75rem;
+}
+
+.espacamento {
+    margin-top: 1.5rem;
+    margin-bottom: 4rem;
+}
+
+.espacamento-cima {
+    margin-top: 4rem;
+}
+
+.container__botao__promo {
+    margin-left: 6.25rem;
+    margin-right: 6.25rem;
+}
+
+.container__cabecalho {
+    background-color: var(--verde-fundo);
+}
+
+.container__imagem {
+    margin-top: 3.8rem;
+    box-sizing: border-box;
+    margin-bottom: 3rem;
+}
+
+.container__paragrafo {
+    font-family: var(--familia-texto);
+    font-weight: 500;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.container__titulo {
+    margin-top: 1rem;
+    margin-bottom: 3.25rem;
+    font-family: var(--familia-texto);
+    font-weight: 500;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.lista__conteudo {
+    font-family: var(--familia-texto);
+    font-weight: 400;
+    font-size: 1rem;
+    margin-bottom: 1.2rem;
+}
+
+.lista__img {
+    margin-left: 1.5rem;
+    margin-right: 1rem;
+}
+
+.lista__auxiliar {
+    font-family: var(--familia-texto);
+    font-weight: 600;
+    font-size: 3rem;
+    display: block;
+    color: var(--verde);
+    text-align: center;
+}
+.lista__auxiliar-p {
+    margin-top: 1rem;
+    margin-bottom: 2.8rem;
+    font-family: var(--familia-texto);
+    font-weight: 400;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.cartao {
+    background-color: var(--cinza);
+    border: 1px solid var(--verde);
+    padding-bottom: 2rem;
+}
+.cartao__imagem {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    width: 100%;
+    box-sizing: border-box;
+}
+.cartao__titulo {
+    font-family: var(--familia-texto);
+    font-weight: 500;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    margin-top: 1.5rem;
+    padding: 1rem 3.1rem 1rem 1rem;
+}
+.cartao__texto {
+    font-family: var(--familia-texto);
+    font-weight: 400;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    padding: 1rem 4.5rem 1rem 1rem;
+    line-height: 1.2rem;
+}
+.cartao__link {
+    color: var(--verde);
+    font-family: var(--familia-texto);
+    font-weight: 500;
+    font-size: 0.95rem;
+    padding-left: 3rem;
+    padding-bottom: 2rem;
+}
+
+.cartao__popular {
+    border: 2px solid var(--verde);
+    padding: 3rem;
+    display: grid;
+    justify-content: center;
+    margin-bottom: 2.5rem;
+
+}
+
+.cartao__texto--ajuste {
+    font-size: 1.5rem;
+    padding: 1.2rem 0 0 0;
+    text-align: center;
+}
+
+.cartao-preco {
+    color: var(--verde);
+}
+
+.cartao-preco-alternativo {
+    color: #767675;
+}
+.cartao__alternativo {
+    border: 2px solid var(--cinza);
+}
